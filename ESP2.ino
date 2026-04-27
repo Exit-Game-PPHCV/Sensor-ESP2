@@ -44,8 +44,8 @@ bool keypadSolved = false;
 bool temperatureAlarm = false;
 
 // ===== PRÜF-ANIMATION =====
-const unsigned long CHECK_TIME_MS = 5000;
-const unsigned long BLINK_INTERVAL_MS = 500;
+const unsigned long CHECK_TIME_MS = 1000;
+const unsigned long BLINK_INTERVAL_MS = 100;
 
 // ===== BUZZER TIMING =====
 unsigned long lastBuzzerTime = 0;
@@ -54,7 +54,7 @@ const unsigned long BUZZER_INTERVAL_MS = 500;
 
 // ===== DHT TIMING =====
 unsigned long lastTempReadTime = 0;
-const unsigned long TEMP_READ_INTERVAL_MS = 100;
+const unsigned long TEMP_READ_INTERVAL_MS = 2000;
 float lastTempC = 0.0;
 
 
